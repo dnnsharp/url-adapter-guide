@@ -2,5 +2,5 @@
 
 * [About](README.md)
 * [FAQs](faqs.md)
-* Getting Started
+* [Getting Started](getting_started.md)
 
