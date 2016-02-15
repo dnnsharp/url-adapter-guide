@@ -6,6 +6,6 @@
 * [Video Tutorials](video_tutorials.md)
 * [Compatibility](compatibility.md)
 * [Debugging](debugging.md)
-* Examples
+* [Examples](examples/examples.md)
    * [Improving SEO](examples/improving_seo.md)
 
