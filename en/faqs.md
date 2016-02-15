@@ -13,3 +13,15 @@ For IIS 7+
 
 For IIS 6
 * Pretty much the same thing, only make sure to take out Check If File Exists option.
+
+***
+
+##### 2. Why do I see the standard "The resource cannot be found" page instead of 404 page I configured in URL Adapter settings?
+
+One common cause for this is because custom errors are disabled under web.config. When custom errors are disabled, Asp.NET will show the actual error so developers can debug it. To check either this is the case, locate the customErrors section and set mode="On", as illustrated below.
+```xml
+    <customErrors mode="On" redirectMode="ResponseRewrite">
+        <error statusCode="404" redirect="/DesktopModules/DnnSharp/SeoUrlAdapter/NotFound.aspx" />
+        <error statusCode="500" redirect="/DesktopModules/DnnSharp/SeoUrlAdapter/InternalError.aspx" />
+    </customErrors>
+```
