@@ -20,4 +20,5 @@
    * [Custom URLs](settings-reference/custom_urls.md)
    * [Friendly URLs](settings-reference/friendly_urls.md)
    * [Portal Aliases](settings-reference/portal_aliases.md)
+   * Special Pages
 
