@@ -19,5 +19,5 @@
    * [Advanced Rules](settings-reference/advanced_rules.md)
    * [Custom URLs](settings-reference/custom_urls.md)
    * [Friendly URLs](settings-reference/friendly_urls.md)
-   * Portal Aliases
+   * [Portal Aliases](settings-reference/portal_aliases.md)
 
