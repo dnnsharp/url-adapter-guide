@@ -8,4 +8,5 @@
 * [Debugging](debugging.md)
 * [Examples](examples/examples.md)
    * [Improving SEO](examples/improving_seo.md)
+   * Redirect HTML Pages
 
