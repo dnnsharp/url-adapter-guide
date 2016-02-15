@@ -44,7 +44,7 @@ If you need to write one single rule, that would be:
     Condition: http://olddomain.com{path*}
     Target URL: http://newdomain.com{path*}
 
-Note that {*path} parameter matches everything after the domain name. Read more about Advanced Rules.
+Note that `{*path}` parameter matches everything after the domain name. Read more about [Advanced Rules](http://url-adapter.dnnsharp.com/setup-your-adapter/rules).
 
 ***
 
