@@ -6,4 +6,5 @@
 * [Video Tutorials](video_tutorials.md)
 * [Compatibility](compatibility.md)
 * [Debugging](debugging.md)
+* Examples
 
