@@ -22,5 +22,5 @@
    * [Portal Aliases](settings-reference/portal_aliases.md)
    * [Special Pages](settings-reference/special_pages.md)
 * [Setup](setup.md)
-* URL Adapter vs Redirect Toolkit
+* [URL Adapter vs Redirect Toolkit](url_adapter_vs_redirect_toolkit.md)
 
