@@ -31,7 +31,7 @@ If you're not afraid to get your hands dirty, you can go directly into the datab
 If everything else fails, you can disable URL Adapter manually to get access back to your website. This is done from `web.config` file. If you have a backup, you can just copy it back over the original. If not, do not despair. You can make the changes manually.
 
 1. First, undo the HTTP Module that does the rewrite. Find the line below:
-
+```xml
 <system.webServer>
     <modules>
       <add name="UrlRewrite" 
@@ -39,9 +39,9 @@ If everything else fails, you can disable URL Adapter manually to get access bac
        ... the rest of HTTP modules ....
     </modules>
 </system.webServer>
-
+```
 And replace it with:
-
+```xml
 <system.webServer>
     <modules>
       <add name="UrlRewrite" 
@@ -49,11 +49,11 @@ And replace it with:
        ... the rest of HTTP modules ....
     </modules>
 </system.webServer>
+```
+Note that on older IIS you'd have to do the same for the `system.web/httpModules` section.
 
-Note that on older IIS you'd have to do the same for the system.web/httpModules section.
-
-2. Next, you have to switch the URL Provider back to the default. Find the dotnetnuke/friendlyUrl section. Most likely it will look like this:
-
+2. Next, you have to switch the URL Provider back to the default. Find the `dotnetnuke/friendlyUrl` section. Most likely it will look like this:
+```xml
 <dotnetnuke>
   <friendlyUrl defaultProvider="SeoUrlAdapter">
     <providers>
@@ -71,8 +71,8 @@ Note that on older IIS you'd have to do the same for the system.web/httpModules 
     </providers>
   </friendlyUrl>
 </dotnetnuke>
-
-All you have to do is replace defaultProvider="SeoUrlAdapter" with defaultProvider="DNNFriendlyUrl".
+```
+All you have to do is replace `defaultProvider="SeoUrlAdapter"` with `defaultProvider="DNNFriendlyUrl"`.
 
 This will revert to using the standard URL Rewriter, so you can get back into the site and sort out the underlying issues.
 
