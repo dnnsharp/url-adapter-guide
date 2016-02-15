@@ -15,7 +15,7 @@ The administration console is compatible with all the major browsers.
 
 ## Facebook Authentication Provider
 
-This provider doesn't work with relative URLs. It fails on "/login.aspx" URL. So make sure to switch URL Adapter to absolute URLs, so this component will actually receive "http://example.com/login.aspx" which does work.
+This provider doesn't work with relative URLs. It fails on `/login.aspx` URL. So make sure to switch URL Adapter to absolute URLs, so this component will actually receive `http://example.com/login.aspx` which does work.
 
 ## The Core MemberDirectory module
 
