@@ -25,7 +25,7 @@ We've attached to this page a Hot Fix that will work in DNN 6 and one that will 
 
 We didn't test these changes on every DNN version, so if you need to reapply the Hot Fix to a specific version, follow the steps below:
 
-1. In Member.cs add
+1. In `Member.cs` add
     ```cs
     public string ProfileUrl
     {
@@ -33,7 +33,7 @@ We didn't test these changes on every DNN version, so if you need to reapply the
     }
     ```
 
-2. In MemberDirectory.js
+2. In `MemberDirectory.js`
     
     Change
     ```js
@@ -45,3 +45,7 @@ We didn't test these changes on every DNN version, so if you need to reapply the
     ```
     self.ProfileUrl = ko.observable(item.ProfileUrl);
     ```
+
+3. Optionally remove `opts.profileUrl` and `opts.profileUrlUserToken` hack from `MemberDirectory.j`s and `View.ascx`
+
+4. Compile and copy the DLL to the website `/bin` folder and the JS to `~\DesktopModules\MemberDirectory\scripts\MemberDirectory.js`
