@@ -26,7 +26,7 @@ Important Remember to save your changes, every section has its own "Save" button
 * [**Advanced rules**](advanced_rules.html)
 <br />Regular expression rules that apply to large classes of page names.
 
-* [**License**](license.html)
+* **License**
 <br />Manages the URL Adapter module's license.
 
 While normally not needed, the **Refresh** button can assist you in being sure that the site is using URLs based on the latest settings and not a cached version. URL Adapter basically builds an index of pages in memory so access to the pages is very fast.
