@@ -18,4 +18,5 @@
 * [Settings Reference](settings-reference/settings_reference.md)
    * [Advanced Rules](settings-reference/advanced_rules.md)
    * [Custom URLs](settings-reference/custom_urls.md)
+   * Friendly URLs
 
