@@ -56,3 +56,9 @@ Because all the URLs get rewritten on activation, you will be redirected to the 
 
 There are some video tutorials that come in handy when we don't manage to bring the documentation up to date, and an introduction to URL Adapter can be found here: 
 {% youtube %}https://youtu.be/pk0YHxwzROI{% endyoutube %}
+
+***
+
+##### 6. What happens when I click on the red "disable" button (right top)?
+
+If you disable URL Adapter, it reverts back to the DNN URL provider. This means that all URLs will look like before you had URL Adapter installed. Note that you don't lose any previous settings and/or custom URLs from the different portals if you re-enable the module.
