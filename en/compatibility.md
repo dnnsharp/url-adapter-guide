@@ -2,7 +2,7 @@
 
 ## Minimum Requirements
 
-URL Adapter works on DotNetNuke 6.0+, either it's the Community or one of the Professional editions. It needs IIS6+ with Asp.NET 4.0+ and SQL Server 2000+ (including the MSDE or Express editions).
+URL Adapter works on DotNetNuke 6.0+, either it's the Community or one of the Professional editions. It needs IIS6+ with ASP.NET 4.0+ and SQL Server 2000+ (including the MSDE or Express editions).
 
 The administration console is compatible with all the major browsers.
 
