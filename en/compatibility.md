@@ -50,8 +50,8 @@ We didn't test these changes on every DNN version, so if you need to reapply the
 
 4. Compile and copy the DLL to the website `/bin` folder and the JS to `~\DesktopModules\MemberDirectory\scripts\MemberDirectory.js`
 
-    [MemberDirectory-HotFix-DNN-7.0.5.zip](/uploads/MemberDirectory-HotFix-DNN-7.0.5.zip)
+    [MemberDirectory-HotFix-DNN-7.0.5.zip](../uploads/MemberDirectory-HotFix-DNN-7.0.5.zip)
     
-    [MemberDirectory-HotFix-DNN-7.0.6.zip](/uploads/MemberDirectory-HotFix-DNN-7.0.6.zip)
+    [MemberDirectory-HotFix-DNN-7.0.6.zip](../uploads/MemberDirectory-HotFix-DNN-7.0.6.zip)
     
-    [MemberDirectory-HotFix-DNN6.zip](/uploads/MemberDirectory-HotFix-DNN6.zip)
+    [MemberDirectory-HotFix-DNN6.zip](../uploads/MemberDirectory-HotFix-DNN6.zip)
