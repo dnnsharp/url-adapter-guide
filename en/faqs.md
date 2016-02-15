@@ -25,3 +25,23 @@ One common cause for this is because custom errors are disabled under web.config
         <error statusCode="500" redirect="/DesktopModules/DnnSharp/SeoUrlAdapter/InternalError.aspx" />
     </customErrors>
 ```
+
+***
+
+##### 3. Why aren't permanent redirects working?
+
+When you create permanent redirects, note that browsers are caching them aggressively. This means that when you change to permanent redirect to a different URL, you'd still be redirected to the old URL, because the browser never queries to server again to get the new URL. To fix this, clear the browser cache and also make sure to test with different browsers or from different computers.
+
+***
+
+##### 4. How do I redirect all traffic from an old domain to a new domain?
+
+If all URLs remained the same, then you can rewrite all traffic with a single Advanced Rule. If on the other hand, the URLs also changed, then you'd have to build an association table. We recommend that you Export the rules as CSV, add your own in Excel, and then Import it back.
+
+If you need to write one single rule, that would be:
+
+```
+<b>Match</b>: Absolute
+Condition: http://olddomain.com{path*}
+Target URL: http://newdomain.com{path*}
+```
