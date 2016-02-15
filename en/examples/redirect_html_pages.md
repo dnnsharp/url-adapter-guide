@@ -14,10 +14,12 @@ That's it! It's just that simple. You can do like this with all the pages you wa
 
 ![custom urls example](custom-urls-example.png)
 
-Also note that in certain cases, prior IIS7, you will need to map .html extensions to be handled by the AspNet handler. Without this, IIS will throw the 404 page not found and never pass execution to URL Adapter. 
+Also note that in certain cases, prior IIS7, you will need to map `.html` extensions to be handled by the ASP.NET handler. Without this, IIS will throw the 404 page not found and never pass execution to URL Adapter.
 
-If you do not have access to the IIS Manager you can add in web.config (configuration > system.webServer > handlers) the following line:
-<add name="URLAdapter-handleHtml" path="*.html" verb="*" type="System.Web.UI.PageHandlerFactory" preCondition="integratedMode" />
-The name of the handler must start with 'URLAdapter-', otherwise URL Adapter will ignore it.
+If you do not have access to the IIS Manager you can add in `web.config` (configuration > system.webServer > handlers) the following line:
 
-Click here to see more on how to redirect .html pages to DNN. 
+    <add name="URLAdapter-handleHtml" path="*.html" verb="*" type="System.Web.UI.PageHandlerFactory" preCondition="integratedMode" />
+    
+The name of the handler must start with `URLAdapter-`, otherwise URL Adapter will ignore it.
+
+Watch [this youtube video](https://www.youtube.com/watch?v=mYc1VVNxmp0) to see more on how to redirect `.html` pages to DNN. 
