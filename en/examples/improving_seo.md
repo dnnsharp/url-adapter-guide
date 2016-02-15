@@ -17,9 +17,3 @@ In URL Adapter you can setup "Advanced Rules" which are nothing more than a mapp
 
 You can use the Advanced Rules to setup a rewrite rule from urla/somepage to urla/somepage?trackingcode=123.
 
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
