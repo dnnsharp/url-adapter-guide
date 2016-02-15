@@ -12,8 +12,8 @@ Here are just a few cases when Advanced Rules are most appropriate:
 <br />Note that when you're doing rewriting through Advanced Rules, you'll most likely end up with 2 rules: one redirecting from old url to new url, one one that rewrites the new url to old url.
 For example, originally you had `/articles.aspx?title=My Article` and you wish to use `/articles/My article.aspx` instead. First, write a redirect rule that sends the users to the new page. Then, a second rule will rewrite the rule, so even if the browser address bar displays `/articles/My article.aspx`, in fact the server components see the original `/articles.aspx?title=My Article` which they can handle.
 
-Domain redirect
-So you've changed domain from old-unattractive.com to new-cool.com? Write a rule to permanently redirect traffic to the exact path on the new domain.
+* **Domain redirect**
+<br />So you've changed domain from `old-unattractive.com` to `new-cool.com`? Write a rule to permanently redirect traffic to the exact path on the new domain.
 
-Pass Query String parameters
-The Custom Rules will map to a page and you don't have the ability to pass additional parameters in query string. This may change in the future, but if this is the case, then you'll need Advanced Rules.
+* **Pass Query String parameters**
+<br />The Custom Rules will map to a page and you don't have the ability to pass additional parameters in query string. This may change in the future, but if this is the case, then you'll need Advanced Rules.
