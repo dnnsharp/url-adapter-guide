@@ -10,5 +10,5 @@
    * [Improving SEO](examples/improving_seo.md)
    * [Redirect HTML Pages](examples/redirect_html_pages.md)
    * [Redirect PHP Pages](examples/redirect_php_pages.md)
-* Integration
+* [Integration](integration.md)
 
