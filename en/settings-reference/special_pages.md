@@ -24,4 +24,4 @@ This section lets you customize how special pages (like home or users pages) are
 <br />Starting with URL Adapter 1.2 there is this cool new feature. Enabling it, the log information is saved so that you can use it on debugging. The logs information is saved in `[Portal Name]/Logs/UrlAdapter`.  
 
 * **404 Page**
-<br />A good custom 404 page can and will help you visitors to find the information they're looking for, as well as providing other helpful content and encouraging them to explore your site. Starting with URL Adapter 1.2, you can replace the current 404 page with a custom one, set-up and designed the way you want. 
+<br />A good custom 404 page can and will help your visitors to find the information they're looking for, as well as providing other helpful content and encouraging them to explore your site. Starting with URL Adapter 1.2, you can replace the current 404 page with a custom one, set-up and designed the way you want. 
