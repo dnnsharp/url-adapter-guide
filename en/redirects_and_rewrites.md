@@ -28,12 +28,14 @@ A 302 redirect only says that the browser or the client app should redirect to a
 
 In URL Adapter most of the time you'll directly rewrite or redirect one URL to another, but there are other few settings to tune this replacement engine further.
 
-Permanent Redirect - With permanent redirects, the browser heavily caches the URLs and make development and testing unpredictable. We recommend to always use plain redirects while configuring and only switch to permanent redirects when you are done. The only reliable way to clear this in Chrome browser is with F12 > right click the fresh button at the top > choose 3rd option "Empty cache and Hard Reload".
+**Permanent Redirect** - With permanent redirects, the browser heavily caches the URLs and make development and testing unpredictable. We recommend to always use plain redirects while configuring and only switch to permanent redirects when you are done. The only reliable way to clear this in Chrome browser is with F12 > right click the fresh button at the top > choose 3rd option "Empty cache and Hard Reload".
 
-Skip option will ignore the rule created and will not execute it.
+**Skip** option will ignore the rule created and will not execute it.
 
-Disabled URLs basically means that URL Adapter should never serve this URL. What it does, it looks for an alternative - that is a primary or a default URL. This is different that enforcing a URL, where all other URLs will point to the primary one. The disabled URL only applies for one URL.
+**Disabled URLs** basically means that URL Adapter should never serve this URL. What it does, it looks for an alternative - that is a primary or a default URL. This is different that enforcing a URL, where all other URLs will point to the primary one. The disabled URL only applies for one URL.
 
-Deleted - this option is used to remove the created rule - make sure that after you set it on a rule you click on the "Save Changes" button. 
+**Deleted** - this option is used to remove the created rule - make sure that after you set it on a rule you click on the "Save Changes" button. 
 
-URL Provider
+**URL Provider**
+
+![](type.png)
