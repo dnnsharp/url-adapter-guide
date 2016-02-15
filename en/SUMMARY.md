@@ -16,5 +16,5 @@
 * [Logging](logging.md)
 * [Redirects and Rewrites](redirects_and_rewrites.md)
 * Settings Reference
-   * Advanced Rules
+   * [Advanced Rules](settings-reference/advanced_rules.md)
 
