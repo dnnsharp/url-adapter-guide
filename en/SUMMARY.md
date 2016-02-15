@@ -15,6 +15,6 @@
 * [Locked Out?](locked_out.md)
 * [Logging](logging.md)
 * [Redirects and Rewrites](redirects_and_rewrites.md)
-* Settings Reference
+* [Settings Reference](settings-reference/settings_reference.md)
    * [Advanced Rules](settings-reference/advanced_rules.md)
 
