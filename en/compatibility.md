@@ -34,12 +34,14 @@ We didn't test these changes on every DNN version, so if you need to reapply the
     ```
 
 2. In MemberDirectory.js
+    
+    Change
     ```js
-    Change:
     self.ProfileUrl = ko.computed(function () {
         return profileUrl.replace(profileUrlUserToken, self.UserId().toString());
     }, this);
-    
+    ```
     To:
+    ```
     self.ProfileUrl = ko.observable(item.ProfileUrl);
     ```
