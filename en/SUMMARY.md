@@ -7,4 +7,5 @@
 * [Compatibility](compatibility.md)
 * [Debugging](debugging.md)
 * Examples
+   * Improving SEO
 
