@@ -55,3 +55,4 @@ In order to use URL Adapter, after installing and adding it on a page, you have 
 Because all the URLs get rewritten on activation, you will be redirected to the homepage. Chances are to get a "page not found" error, but do not worry: as soon as you manually re-access the homepage you'll be able to continue with the configuration of the module.
 
 There are some video tutorials that come in handy when we don't manage to bring the documentation up to date, and an introduction to URL Adapter can be found here: 
+{% youtube %}https://youtu.be/pk0YHxwzROI{% endyoutube %}
