@@ -26,3 +26,7 @@ Note that you have to be logged in with an Administrator user in order to access
 This feature was added in version 1.2. When enabled, it logs detailed information about each request and how each URL is formed. Use it to troubleshoot problems related to URLs.
 
 ![](debug_login.png)
+
+The logs information are saved in `/Portals/_default/Logs/UrlAdapter` and `/Portals/[PortalId]/Logs/UrlAdapter`. The reason for having 2 folders is that until it determines what portal the current request runs on, URL Adapter logs the information under the _default folder.
+
+**Important!** Logs can get quite big, rapidly consuming the disk space on the server. Make sure to disable this option when you finish the debugging session.
