@@ -19,7 +19,9 @@ There are two methods in which this can be achieved:
     Target URL: http://www.site.com{*}
     Type: Redirect
     ```
+    
     ![www image example](www.png)
+    
     * In this way, only the specified portal will be "affected" by the advanced rule, and if you have, for example, other portals like `http://blog.site.com`, it will remain without `www`.
     
 ## Redirects to `https://`
@@ -49,5 +51,12 @@ If you want a shiny new URL there are two steps you need to make in Advanced Rul
 
 ## When there's a # in the URL
 
-This is an important note to be made, in Condition the # inside an URL will not be recognized and there might be some problems in recognizing the entire URL, but if you want to make a redirect/rewrite to a link which has # inside it, Target URL accepts it. 
+This is an important note to be made, in Condition the # inside an URL will not be recognized and there might be some problems in recognizing the entire URL, but if you want to make a redirect/rewrite to a link which has # inside it, Target URL accepts it.
+
 ![hash image example](hash.png)
+
+## How to use a Token in an Advanced Rules
+
+A simple basic example is to manually create a token with an URL inside the Constant String and use it in Target URL to make a redirect. 
+
+![token image example](token.png)
