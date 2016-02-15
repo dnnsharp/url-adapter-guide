@@ -21,7 +21,7 @@ There are two methods in which this can be achieved:
     ```
     * In this way, only the specified portal will be "affected" by the advanced rule, and if you have, for example, other portals like `http://blog.site.com`, it will remain without `www`.
     
-## Redirects to https://
+## Redirects to `https://`
 
 URL Adapter also provides the ability to redirect all `http://` traffic to `https://` - it respects the HTTPS settings made in DNN (Admin > Site Settings and page settings), therefore, pages checked as secured should be served with `https://`.
 
