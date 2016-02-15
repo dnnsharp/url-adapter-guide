@@ -1,6 +1,6 @@
 # FAQs
 
-#### 1. I've redone a PHP website in DNN. I want to save SEO, so how do I permanently redirect old URLs to new DNN pages?
+##### 1. I've redone a PHP website in DNN. I want to save SEO, so how do I permanently redirect old URLs to new DNN pages?
 
 First think to keep in mind is that your new IIS server will probably not handle .php extension, or will handle it using the PHP engine. If that happens, DNN never executes so URL Adapter doesn't get the chance to do the redirects. To map the .php extension to Asp.NET handler:
 
