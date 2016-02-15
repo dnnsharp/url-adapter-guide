@@ -5,5 +5,5 @@
 * [Getting Started](getting_started.md)
 * [Video Tutorials](video_tutorials.md)
 * [Compatibility](compatibility.md)
-* Debugging
+* [Debugging](debugging.md)
 
