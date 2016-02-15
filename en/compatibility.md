@@ -51,6 +51,6 @@ We didn't test these changes on every DNN version, so if you need to reapply the
 4. Compile and copy the DLL to the website `/bin` folder and the JS to `~\DesktopModules\MemberDirectory\scripts\MemberDirectory.js`
 
 
-* [MemberDirectory-HotFix-DNN-7.0.5.zip](http://dl.dnnsharp.com/url-adapter-MemberDirectory-fix/MemberDirectory-HotFix-DNN-7.0.5.zipp)
+* [MemberDirectory-HotFix-DNN-7.0.5.zip](http://dl.dnnsharp.com/url-adapter-MemberDirectory-fix/MemberDirectory-HotFix-DNN-7.0.5.zip)
 * [MemberDirectory-HotFix-DNN-7.0.6.zip](http://dl.dnnsharp.com/url-adapter-MemberDirectory-fix/MemberDirectory-HotFix-DNN-7.0.5.zip)
 * [MemberDirectory-HotFix-DNN6.zip](http://dl.dnnsharp.com/url-adapter-MemberDirectory-fix/MemberDirectory-HotFix-DNN6.zip)
