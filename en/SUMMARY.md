@@ -9,5 +9,5 @@
 * [Examples](examples/examples.md)
    * [Improving SEO](examples/improving_seo.md)
    * [Redirect HTML Pages](examples/redirect_html_pages.md)
-   * Redirect PHP Pages
+   * [Redirect PHP Pages](examples/redirect_php_pages.md)
 
