@@ -1,6 +1,6 @@
 # URL Adapter vs Redirect Toolkit
 
-## What is the difference between URL Adapter and Redirect Toolkit
+### What is the difference between URL Adapter and Redirect Toolkit
 
 
 Talking about redirects, DNN Sharp has two products in this area - the Redirect Toolkit and the URL Adapter. The questions that comes to our minds is, can they both be used on a site at the same time? How do you differentiate the circumstances that one or the other is more appropriate?
