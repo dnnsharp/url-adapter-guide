@@ -12,3 +12,17 @@ The option to turn on logging is located in the Special Pages section from the m
 Right next to the HTTP Exceptions Logging button you'll find the link to view the reports. Clicking that button will open the screen below where you can filter the entries in report by error or by category of errors.
 
 ![view logs by error type or by category](error.png)
+
+## Testing
+
+You can test the logging by calling a special script we've created, as follows 
+
+`example.com/DesktopModules/DnnSharp/SeoUrlAdapter/ThrowError.aspx?code=500`
+
+Note that you have to be logged in with an Administrator user in order to access this script.
+
+## Debug Logging
+
+This feature was added in version 1.2. When enabled, it logs detailed information about each request and how each URL is formed. Use it to troubleshoot problems related to URLs.
+
+![](debug_login.png)
