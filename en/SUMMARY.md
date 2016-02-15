@@ -17,4 +17,5 @@
 * [Redirects and Rewrites](redirects_and_rewrites.md)
 * [Settings Reference](settings-reference/settings_reference.md)
    * [Advanced Rules](settings-reference/advanced_rules.md)
+   * Custom URLs
 
