@@ -8,3 +8,7 @@ URL Adapter can log all HTTP errors such as 404 (Page Not Found) or 500 (Interna
 
 The option to turn on logging is located in the Special Pages section from the module.
 ![logging settings in special pages section](special-pages.png)
+
+Right next to the HTTP Exceptions Logging button you'll find the link to view the reports. Clicking that button will open the screen below where you can filter the entries in report by error or by category of errors.
+
+![view logs by error type or by category](error.png)
