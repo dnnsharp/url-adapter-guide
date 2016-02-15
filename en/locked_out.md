@@ -76,6 +76,6 @@ All you have to do is replace `defaultProvider="SeoUrlAdapter"` with `defaultPro
 
 This will revert to using the standard URL Rewriter, so you can get back into the site and sort out the underlying issues.
 
-
+<br />
 
 You can also check the video below to see how to reset URL Adapter.
