@@ -12,3 +12,34 @@ The administration console is compatible with all the major browsers.
 ![safari compatible](http://www.dnnsharp.com/portals/0/img/icon_safari24.png)
 ![opera compatible](http://www.dnnsharp.com/portals/0/img/icon_opera24.png)
 ![google chrome compatible](http://www.dnnsharp.com/portals/0/img/icon_chrome24.png)
+
+## Facebook Authentication Provider
+
+This provider doesn't work with relative URLs. It fails on "/login.aspx" URL. So make sure to switch URL Adapter to absolute URLs, so this component will actually receive "http://example.com/login.aspx" which does work.
+
+## The Core MemberDirectory module
+
+When using the Friendly URL Option, be aware of using the Core MemberDirectory module. This module contains a hack that makes it incompatible with URL Adapter. The issue and the fix have been described at http://support.dotnetnuke.com/project/DNN/2/item/27195
+
+We've attached to this page a Hot Fix that will work in DNN 6 and one that will work in DNN 7. Simply open the zip file and copy everything to your website root - it should ask you to overwrite the existing files.
+
+We didn't test these changes on every DNN version, so if you need to reapply the Hot Fix to a specific version, follow the steps below:
+
+1. In Member.cs add
+    ```cs
+    public string ProfileUrl
+    {
+        get { return DotNetNuke.Common.Globals.NavigateURL(_settings.UserTabId, "", "userId=" + _user.UserID); }
+    }
+    ```
+
+2. In MemberDirectory.js
+    ```js
+    Change:
+    self.ProfileUrl = ko.computed(function () {
+        return profileUrl.replace(profileUrlUserToken, self.UserId().toString());
+    }, this);
+    
+    To:
+    self.ProfileUrl = ko.observable(item.ProfileUrl);
+    ```
