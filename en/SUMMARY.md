@@ -13,5 +13,5 @@
 * [Integration](integration.md)
 * [Localization](localization.md)
 * [Locked Out?](locked_out.md)
-* Logging
+* [Logging](logging.md)
 
